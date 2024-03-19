@@ -24,18 +24,29 @@ form {
   font-size: 24px;
 }
 
-#form {
+.form {
   font-size: 18px;
-  padding: 5px;
+  padding: 10px;
+  font-style: italic;
+  background-color: #d9e6f2;
+  border: none;
+  border-radius: 5px;
 }
 
-#form-submit {
+.submit-button {
   font-size: 18px;
+  background-color: #0b096a;
+  color: aliceblue;
   border: none;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   margin: 10px;
-  padding: 5px;
+  padding: 10px;
+}
+.submit-button:hover {
+  color: #0b096a;
+  background-color: #88b5dc;
+  cur
 }
 
 .quote {
@@ -66,7 +77,7 @@ blockquote:after {
 blockquote:before {
   content: "“";
   left: 0rem;
-  top: 3rem;
+  top: 2rem;
 }
 
 blockquote:after {
