@@ -11,20 +11,13 @@ body {
   margin: 0 auto;
   padding: 30px;
 }
-button {
-  padding: 5px;
-  border: none;
-  box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-  font-size: 18px;
-}
 
 form {
   padding: 10px 0;
   font-size: 24px;
 }
 
-.form {
+.formInput {
   font-size: 18px;
   padding: 10px;
   font-style: italic;
@@ -43,10 +36,10 @@ form {
   margin: 10px;
   padding: 10px;
 }
+
 .submit-button:hover {
   color: #0b096a;
   background-color: #88b5dc;
-  cur
 }
 
 .quote {

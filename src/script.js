@@ -7,15 +7,20 @@ function displayQuote(response) {
   });
 }
 
-function generateQuote() {
+function generateQuote(event) {
+  event.preventDefault();
+  let formInputElement = document.querySelector("#form-input");
   let apiKey = "44b4d9f5e3a3baf490c33c5519ot4f0a";
-  let apiPrompt = `Generate a quote related to Love`;
-  let apiContext = `Generate a quote that is famous in google"`;
-  let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${apiPrompt}&context={context}&key=${apiKey}`;
+  let apiPrompt = `Generate a quote related to ${formInputElement.value}`;
+  let apiContext = `Generate a quote that is famous and inspirational that is relevant in google, and please provide the author of the quote`;
+  let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${apiPrompt}&context=${apiContext}&key=${apiKey}`;
   axios.get(apiUrl).then(displayQuote);
   let quoteElement = document.querySelector("#quote-input");
-  quoteElement.innerHTML = "Generating a quote for you...please wait!";
+  quoteElement.innerHTML = "Generating a quote for you...please wait...⌛️";
 }
 
 let button = document.querySelector("#button-page");
 button.addEventListener("click", generateQuote);
+
+let quotesForm = document.querySelector("#generator-form");
+quotesForm.addEventListener("submit", generateQuote);
