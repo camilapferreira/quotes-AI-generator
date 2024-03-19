@@ -4,14 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Inspiring Quotes</title>
   </head>
-  <body> <div class="app">
-      <h1 class="h1">Inspiring Quotes </h1>
-      <button id="button-page">Generate here</button>
-      <div class="recipe" id="recipe"></div>
+  <body>
+    <div class="app">
+      <main>
+        <h1 class="h1">Inspiring Quotes</h1>
+        <button id="button-page">Generate Quote</button>
+        <div class="quote" id="quote-input"></div>
+      </main>
       <footer>
+        <hr />
         <p>
           This project was coded by
           <a href="https://github.com/camilapferreira" target="_blank"
@@ -30,6 +35,7 @@
           >
         </p>
       </footer>
+    </div>
     <script src="src/script.js"></script>
-    </body>
+  </body>
 </html>

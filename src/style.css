@@ -23,7 +23,8 @@ button {
   text-align: center;
   background-color: #182848;
 }
-.recipe {
+.quote {
   padding: 10px;
   font-family: sans-serif;
+  margin-top: 40px;
 }
