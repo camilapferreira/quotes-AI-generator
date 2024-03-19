@@ -19,8 +19,5 @@ function generateQuote(event) {
   quoteElement.innerHTML = "Generating a quote for you...please wait...⌛️";
 }
 
-let button = document.querySelector("#button-page");
-button.addEventListener("click", generateQuote);
-
 let quotesForm = document.querySelector("#generator-form");
 quotesForm.addEventListener("submit", generateQuote);
