@@ -16,15 +16,30 @@ button {
   border: none;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
+  font-size: 18px;
 }
 
-.highlight {
-  color: rgb(238, 243, 238);
-  text-align: center;
-  background-color: #182848;
+form {
+  padding: 10px 0;
+  font-size: 24px;
 }
+
+#form {
+  font-size: 18px;
+  padding: 5px;
+}
+
+#form-submit {
+  font-size: 18px;
+  border: none;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+
 .quote {
-  padding: 10px;
-  font-family: sans-serif;
-  margin-top: 40px;
+  font-style: italic;
+  font-size: 28px;
+  padding: 20px 0;
 }
