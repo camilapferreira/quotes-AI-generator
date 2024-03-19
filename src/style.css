@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+.app {
+  color: rgb(5, 36, 63);
+  background-color: aliceblue;
+  max-width: 600px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 30px;
+}
+button {
+  padding: 5px;
+  border: none;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.highlight {
+  color: rgb(238, 243, 238);
+  text-align: center;
+  background-color: #182848;
+}
+.recipe {
+  padding: 10px;
+  font-family: sans-serif;
+}
