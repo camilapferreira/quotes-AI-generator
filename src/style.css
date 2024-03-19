@@ -43,3 +43,39 @@ form {
   font-size: 28px;
   padding: 20px 0;
 }
+
+blockquote {
+  font-weight: 100;
+  font-size: 2rem;
+  max-width: 600px;
+  line-height: 1.4;
+  position: relative;
+  margin: 0;
+  padding: 5.5rem;
+}
+
+blockquote:before,
+blockquote:after {
+  position: absolute;
+  color: #0b096a;
+  font-size: 8rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+blockquote:before {
+  content: "“";
+  left: 0rem;
+  top: 3rem;
+}
+
+blockquote:after {
+  content: "”";
+  right: 0rem;
+  bottom: 6rem;
+}
+
+cite {
+  line-height: 3;
+  text-align: left;
+}
