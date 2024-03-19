@@ -14,16 +14,16 @@ body {
 
 form {
   padding: 10px 0;
-  font-size: 24px;
 }
 
 .formInput {
   font-size: 18px;
-  padding: 10px;
-  font-style: italic;
-  background-color: #d9e6f2;
-  border: none;
-  border-radius: 5px;
+  padding: 15px 45px;
+  background-color: #fdfefe;
+  border: 1.5px solid rgba(39, 33, 66, 0.5);
+  border-radius: 45px;
+  opacity: 0.6;
+  margin-left: 10px;
 }
 
 .submit-button {
@@ -32,14 +32,18 @@ form {
   color: aliceblue;
   border: none;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
+  border-radius: 45px;
   margin: 10px;
-  padding: 10px;
+  padding: 14px 24px;
 }
 
 .submit-button:hover {
   color: #0b096a;
   background-color: #88b5dc;
+}
+
+.instructions {
+  font-size: 16px;
 }
 
 .quote {
