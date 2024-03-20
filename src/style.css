@@ -18,12 +18,11 @@ form {
 
 .formInput {
   font-size: 18px;
-  padding: 15px 45px;
+  padding: 15px 20px;
   background-color: #fdfefe;
   border: 1.5px solid rgba(39, 33, 66, 0.5);
   border-radius: 45px;
   opacity: 0.6;
-  margin-left: 10px;
 }
 
 .submit-button {
@@ -67,8 +66,8 @@ blockquote:after {
   position: absolute;
   color: #0b096a;
   font-size: 8rem;
-  width: 4rem;
-  height: 4rem;
+  width: 6rem;
+  height: 3rem;
 }
 
 blockquote:before {
